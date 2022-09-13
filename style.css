@@ -4,8 +4,8 @@ body {
 }
 
 nav {
-    background-color: antiquewhite;
-    padding: 30px;
+    background-color: #aac3cc;
+    padding: 35px;
     display: flex;
     justify-content: center;
 }
@@ -14,12 +14,12 @@ nav a {
     padding-left: 100px;
     padding-right: 100px;
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .info {
-    background-color: rgb(215, 241, 241);
-    height: 500px;
+    background-color: #e9d6bb;
+    height: 520px;
     display: flex;
 }
 
@@ -82,8 +82,23 @@ img.info_button {
 }
 
 .info_img_ulyana {
-    width: 330px;
+    width: 320px;
     height: 400px;
     margin-right: 250px;
     align-self: flex-end;
+}
+
+.music {
+    background-color: #aac3cc;
+    height: 500px;
+}
+
+.merch {
+    background-color: #e9d6bb;
+    height: 500px;
+}
+
+.contacts {
+    background-color: #aac3cc;
+    height: 300px;
 }
