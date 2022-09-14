@@ -90,11 +90,82 @@ img.info_button {
 
 .music {
     background-color: #aac3cc;
+}
+
+.music_album {
+    padding: 50px 200px 0px 250px;
+    display: flex;
+}
+
+.music_sounds {
+    padding-bottom: 70px;
+}
+
+.music_img_album_cover {
+    width: 500px;
     height: 500px;
+    margin-top: 23px;
+}
+
+.music_album_sounds {
+    margin-top: 0px;
+}
+
+.album_music_1 p, .album_music_2 p, .album_music_3 p, .album_music_4 p, .album_music_5 p {
+    margin-bottom: 10px;
+}
+
+.album_music_1 {
+    display: block;
+    padding: 0px 0px 0px 50px;
+    width: 400px;
+    height: 90px;
+}
+
+.album_music_2 {
+    display: block;
+    padding: 0px 0px 0px 50px;
+    width: 400px;
+    height: 90px;
+}
+
+.album_music_3 {
+    display: block;
+    padding: 0px 0px 0px 50px;
+    width: 400px;
+    height: 90px;
+}
+
+.album_music_4 {
+    display: block;
+    padding: 0px 0px 0px 50px;
+    width: 400px;
+    height: 90px;
+}
+
+.album_music_5 {
+    display: block;
+    padding: 0px 0px 0px 50px;
+    width: 400px;
+    height: 90px;
 }
 
 .music_1 {
-    margin: 50px 50px 50px 250px;
+    display: block;
+    padding: 0px 0px 0px 250px;
+    height: 90px;
+}
+
+.music_2 {
+    display: block;
+    padding: 0px 0px 0px 250px;
+    height: 90px;
+}
+
+.music_3 {
+    display: block;
+    padding: 0px 0px 0px 250px;
+    height: 90px;
 }
 
 .merch {
