@@ -1,24 +1,101 @@
 body {
     margin: 0;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Alcotton', sans-serif;
+    letter-spacing: -10px;
+    color: #5395D1;
+}
+
+audio::-webkit-media-controls-panel {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-mute-button {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-play-button {
+    color: #5395D1;
+}
+/*
+audio::-webkit-media-controls-timeline-container {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-current-time-display {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-timeline {
+    color: #5395D1;
+}
+*/
+audio::-webkit-media-controls-volume-slider-container {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-volume-slider {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-seek-back-button {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-seek-forward-button {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-fullscreen-button {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-rewind-button {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-return-to-realtime-button {
+    color: #5395D1;
+}
+audio::-webkit-media-controls-toggle-closed-captions-button {
+    color: #5395D1;
+}
+
+.centered_picture {
+    text-align: center !important;
+    align-self: center;
 }
 
 nav {
-    background-color: #aac3cc;
+    background-color: #f2f5f8;
     padding: 35px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
 }
 
 nav a {
-    padding-left: 100px;
-    padding-right: 100px;
+    letter-spacing: -15px;
+    text-align: center;
     font-size: 26px;
     font-weight: 700;
+    text-decoration: none;
+    color: #5395D1;
+    /*border: 1px solid #e9d6bb;
+    background-color: #e9d6bb;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px #4b391f ;*/
 }
 
-.info {
+/*nav a:hover{
+    border: 1px solid #836c4d;
     background-color: #e9d6bb;
+    box-shadow: inset 1px 1px 10px 0px #4b391f;
+}*/
+
+.info {
+    background-color: #fce9d9;
     height: 520px;
     display: flex;
 }
@@ -26,6 +103,7 @@ nav a {
 .info_top {
     display: flex;
     align-items: flex-start;
+    margin-left: 10px;
 }
 
 .info_main {
@@ -41,8 +119,13 @@ nav a {
 }
 
 .info_button {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
+}
+
+.info_button:hover {
+    width: 200px;
+    height: 200px;
 }
 
 img.info_button {
@@ -69,8 +152,8 @@ img.info_button {
 }
 
 .info_img_logo {
-    width: 150px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
     padding-right: 20px;
 }
 
@@ -85,15 +168,16 @@ img.info_button {
     width: 320px;
     height: 400px;
     margin-right: 250px;
+    margin-left: 200px;
     align-self: flex-end;
 }
 
 .music {
-    background-color: #aac3cc;
+    background-color: #f2f5f8;
 }
 
 .music_album {
-    padding: 50px 200px 0px 250px;
+    padding: 50px 200px 50px 250px;
     display: flex;
 }
 
@@ -169,11 +253,11 @@ img.info_button {
 }
 
 .merch {
-    background-color: #e9d6bb;
+    background-color: #fce9d9;
     height: 500px;
 }
 
 .contacts {
-    background-color: #aac3cc;
+    background-color: #f2f5f8;
     height: 300px;
 }
