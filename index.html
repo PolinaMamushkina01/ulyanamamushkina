@@ -8,23 +8,29 @@
     </head>
     <body>
         <nav>
-            <a hfer="#music">МУЗЫКА</a>
-            <a hfer="#merch">МЕРЧ</a>
-            <a hfer="#contacts">КОНТАКТЫ</a>
+            <div class="nav">
+                <a href="#music">МУЗЫКА</a>
+                <a href="#merch">МЕРЧ</a> 
+            </div>
+            <a class="centered_picture"><img src="photo_logo_new.png" class="info_img_logo"></a>
+            <div class="nav">          
+                <a href="#concerts">КОНЦЕРТЫ</a>     
+                <a href="#contacts">КОНТАКТЫ</a>
+            </div>
         </nav>
         <main>
             <section class="info">
-                <div class="info_top">
-                    <img src="photo_logo.png" class="info_img_logo">
+                <!--<div class="info_top">
+                    <img src="photo_logo_new.png" class="info_img_logo">
                     <a href="https://vk.com/ulianchikkksinger"><img src="photo_vk.png" class="info_img_icon"></a>
                     <a href="https://web.whatsapp.com/"><img src="photo_whatsapp.png" class="info_img_icon"></a>
-                </div>
+                </div>-->
                 <div class="info_main">
                     <img src="photo_ulyana.png" class="info_img_ulyana">
-                    <div><img src="photo_button.png" class="info_button"></div>
+                    <div><a href="#merch"><img src="photo_button_new.png" class="info_button"></a></div>
                 </div>
             </section>
-            <section class="music">
+            <section class="music" id="music">
                 <div class="music_album">
                     <img class="music_img_album_cover" src="album_cover.jpg">
                     <div class="music_album_sounds">
@@ -95,7 +101,7 @@
                         </audio>
                     </div>
                     <div class="music_3">
-                        <p>ульяна мамушкина - ВЫПУСКНОЙ (acoustic)</p>
+                        <p>ульяна мамушкина - ВЫПУСКНОЙ ( acoustic )</p>
                         <audio controls>
                             <!--<source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">-->
                             <source src="sound_vipusknoy_acoustic.wav" type="audio/mpeg">
@@ -105,11 +111,13 @@
                     </div>
                 </div>
             </section>
-            <section class="merch">
-
+            <section class="merch" id="merch">
+                <img src="photo_button_new.png" class="info_button">
+                <p>с вами душевный мерч от ульяны мамушкиной. вещи, рожденные из искренней музыки, созданные в глубинках сердца</p>
             </section>
-            <section class="contacts">
+            <section class="contacts" id="contacts">
 
             </section>
         </main>
     </body>
+</html>
